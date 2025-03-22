@@ -23,9 +23,9 @@ body {
 #lyrics {
   font-size: 28px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
+  color: yellow;
   position: absolute;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
@@ -41,13 +41,15 @@ body {
 .titulo {
   margin-bottom: 180px;
   font-family: 'Arial Narrow', Arial, sans-serif;
-  color: yellow;
+  color: rgb(255, 255, 255);
   position: absolute;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 4px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @keyframes fadeIn {
   from {
@@ -1626,6 +1628,9 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+.message {
+  background-color: red;
+}
 
 h1 {
   font-size: 2em;
@@ -1638,14 +1643,14 @@ h1 {
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Estilos para pantallas medianas */
   h1 {
-    font-size: 1.8em;
+    font-size: 1em;
   }
 }
 
