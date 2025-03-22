@@ -38,6 +38,7 @@ body {
 .greetings {
   font-size: 7rem;
   font-weight: 900;
+  text-align: center;
 }
 .greetings > span {
   animation: glow 2.5s ease-in-out infinite;
@@ -92,6 +93,7 @@ body {
 .description {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .button a {
@@ -103,12 +105,12 @@ body {
 @media screen and (max-width: 574px) {
   .greetings {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     text-align: center;
   }
   .description {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .button a {
